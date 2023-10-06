@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: century;
+    top: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    border-radius: 25px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 26px;
+    color:rgb(0, 0, 0);
+    transition: .2s ease-in-out;
+    font-family: 'Annie Use Your Telescope';
+    position: relative;
+}
+ul {
+    padding-top: 20px;
+    padding: 10px;
+}
+li a:hover{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.info {
+    min-width: 40%;
+    max-width: 40%;
+    margin-right: 5%;
+}
+
+.image-wrapper {
+    min-width: 40%;
+    max-width: 40%;
+}
+
+#section1 p{
+    font-family:'Annie Use Your Telescope' ;
+    margin-top: 250px;
+    border: 1px solid;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 55px;
+    background-color: white;
+    box-shadow: 5px 10px 8px 10px #000000;
+
+}
+#section1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 1000px;
+    border: 1px solid;
+    border-radius: 25px;
+    background-image: url(manga.jpg);
+}
+#section1 img{
+    height: 600px;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 100px;
+    box-shadow: 5px 10px 8px 10px #000000;
+    border-radius: 25px;
+}
+#section2{
+    height: 1000px;
+    border: 1px solid;
+    border-radius: 25px;
+    background-color:black;
+}
+#section2 h1{
+    font-family:'Annie Use Your Telescope' ;
+    font-size: 50px;
+    margin-left: 20px;
+    color: white;
+}
+#section2 p{
+    font-family:'Annie Use Your Telescope' ;
+    font-size: 50px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    box-shadow: 5px 10px 8px 10px #ffffff ;
+    border-radius: 25px;
+}
+#section3{
+    height: 1000px;
+    border: 1px solid;
+    border-radius: 25px;
+    background-color:black;
+    display: flex;
+    justify-content: space-evenly;
+}
+#section3 h1{
+  font-family:'Annie Use Your Telescope' ;
+    font-size: 50px;
+    margin-left: 20px;
+    color: white;
+}
+#section3 p{
+  font-family:'Annie Use Your Telescope' ;
+    font-size: 50px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    box-shadow: 5px 10px 8px 10px #ffffff ;
+    border-radius: 25px;
+    padding-left: 50px;
+}
+
+#section3 img{
+    height: 600px;
+    width: 700px;
+    margin-left: 25px;
+    margin-top: 100px;
+    box-shadow: 5px 10px 8px 10px #575757;
+    border-radius: 25px;
+  
+}
+.infor {
+    min-width: 40%;
+    max-width: 40%;
+    margin-right: 5%;
+}
+
+.apper {
+    min-width: 40%;
+    max-width: 40%;
+}
+#section4{
+        height: 1000px;
+        border: 1px solid;
+        border-radius: 25px;
+        background-color:black;
+    
+}
+#section4 h1{
+    font-family:'Annie Use Your Telescope' ;
+      font-size: 50px;
+      margin-left: 20px;
+      color: white;}
+#section4 p{
+        font-family:'Annie Use Your Telescope' ;
+          font-size: 50px;
+          margin-left: 20px;
+          color: rgb(0, 0, 0);
+          background-color: white;
+          box-shadow: 5px 10px 8px 10px #ffffff ;
+          border-radius: 25px;
+          padding-left: 50px;}
+i{
+    font-size: 60px;
+    color: #000000;
+    background-color: white;
+    border-radius: 25px;
+gap: 50px;}
+.imge img{
+    width: 65%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+margin-left: 250px;
+    box-shadow:  5px 10px 8px 10px #ffffff ;
+}
